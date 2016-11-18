@@ -10,3 +10,5 @@ User can
 * Randomly generate a set of bars
 
 Implemented with d3.v4.
+
+View output <a href='https://quantbo.github.io/dynamic_bar_chart/' target='_blank'>here</a>.
