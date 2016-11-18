@@ -1,0 +1,43 @@
+a {
+	color: blue;
+	font-weight: normal;
+	text-decoration: none;
+}
+a:hover {
+	color: orange;
+}
+body {
+	font: 19px sans-serif;
+	font-weight: 100;
+	margin-left: 4%;
+	margin-top: 2%;
+}
+h1 {
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.axis text {
+	font-size: 18px;
+}
+.control {
+	color: blue;
+	font-weight: bold;
+}
+.control:hover {
+	color: rgb(128, 225, 0);
+}
+#blurb {
+	font-size: 1.2em;
+	font-family: serif;
+	font-weight: 100;
+	margin-right: 5%;
+	margin-top: 2.5%;
+	width: 50%;
+}
+#ctrl {
+	margin-bottom: 3%;
+}
+#ctrl p {
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
