@@ -11,4 +11,4 @@ User can
 
 Implemented with d3.v4.
 
-You can view the resulting web page [here](https://quantbo.github.io/).
+View output <a href='https://quantbo.github.io/dynamic_bar_chart/' target='_blank'>here</a>.
