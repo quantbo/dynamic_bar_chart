@@ -127,7 +127,8 @@ Built with d3.v4.
 			svg.selectAll('.axis').remove();
 			svg.append('g').attr('class', 'axis')
       .attr('transform', 'translate(' + margin.left + ',' + (margin.top + innerHeight) + ')')
-      .call(d3.axisBottom(xScale).tickSizeOuter(0));
+			//PROBLEM: The call to ticks() below seems to have no effect.
+      .call(d3.axisBottom(xScale).tickSizeOuter(0).ticks(10));
 			svg.append('g').attr('class', 'axis')
       .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
       .call(d3.axisLeft(yScale).tickSizeOuter(0));
